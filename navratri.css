@@ -1,17 +1,14 @@
-*
-{
+* {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
-#index_color
-{
+#index_color {
     background-color: #d3ecea;
 }
 
-#navbar
-{
+#navbar {
     background-color: rgb(234, 147, 60);
     padding: 10px;
     display: flex;
@@ -19,50 +16,42 @@
 
 }
 
-h1
-{
+h1 {
     font-family: 'Grenze Gotisch', serif;
     font-size: 2.8rem;
 }
 
-#navratri_logo
-{
-    
+#navratri_logo {
+
     display: flex;
     gap: 20px;
     align-items: center;
     font-size: 1.5rem;
 }
 
-#links
-{
+#links {
     padding: 20px;
-       
+
 }
 
-#links>a
-{
+#links>a {
     margin-left: 40px;
     font-size: 4rem;
     text-decoration: none;
     font-family: 'Neuton', serif;
-    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
 }
 
-a:link
-{
-    color:rgb(7, 7, 7);
+a:link {
+    color: rgb(7, 7, 7);
 }
 
-a:visited
-{
-   color: rgb(57, 49, 49);
+a:visited {
+    color: rgb(57, 49, 49);
 }
 
-a:active
-{
+a:active {
     color: #f1de65;
- }  
+}
 
 #banner {
     background-image: url("navratri8.jpg");
@@ -70,43 +59,23 @@ a:active
     height: 900px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* opacity: 0.8;   */
     display: grid;
-    justify-self:center;
+    justify-self: center;
     grid-template-columns: auto auto;
 }
 
-#banner>div>img
-{
+#banner>div>img {
     border-radius: 20px;
 }
 
-.banner_img
-{
+.banner_img {
     margin-top: 90px;
     margin-left: 25%;
-    
-    
+
+
 }
-/* #banner_h2
-{
-    font-family: 'Sancreek', serif;
-    font-family: 'Grenze Gotisch', serif;
-    font-size: 8rem;
-    padding-top: 150px;
-    color: #FFE61B;
-    color: #0F0F0F;
-} */
 
-/* #banner_p
-{
-    margin: 130px;
-    font-size: 1.5rem;
-    color:rgb(40, 7, 7);
-} */
-
-#buffer
-{
+#buffer {
     width: 100%;
     height: 500px;
     text-align: center;
@@ -118,15 +87,7 @@ a:active
     color: #5e033e;
 }
 
-/* .index_div
-{
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-} */
-
-#about_us
-{
+#about_us {
     background-image: url("Navratri-Images-4.png");
     width: 100%;
     background-repeat: no-repeat;
@@ -134,36 +95,30 @@ a:active
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-#about_us_div
-{
+#about_us_div {
     font-size: 1.5rem;
     margin-top: 50px;
     margin-bottom: 70px;
     padding: 70px;
     text-align: center;
-    /* font-family: 'Tilt Neon', sans-serif; */
-    
+
 }
 
-#about_us>h2
-{
+#about_us>h2 {
     margin-bottom: 40px;
 }
 
-#about_us_div>h3
-{
+#about_us_div>h3 {
     text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.about_us_p
-{
+.about_us_p {
     margin-top: 30px;
     margin-bottom: 40px;
     font-family: 'Poppins', sans-serif;
 }
 
-#Days
-{
+#Days {
     background-image: url("navratri_benar.jpg");
     width: 100%;
     background-repeat: no-repeat;
@@ -171,19 +126,16 @@ a:active
     color: white;
 }
 
-#Days>h2
-{
-   margin-bottom: 60px; 
+#Days>h2 {
+    margin-bottom: 60px;
 }
 
-#Days>h4>a
-{
+#Days>h4>a {
     text-decoration: none;
     color: white;
 }
 
-.days_h4
-{
+.days_h4 {
     display: flex;
     justify-content: center;
     font-size: 2rem;
@@ -191,60 +143,14 @@ a:active
     margin-right: 40%;
     margin-bottom: 60px;
     font-family: 'Wellfleet', monospace;
-    
+
     border-radius: 20px;
     text-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px; */
     box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
 }
 
-
-/* #Days
-{
-    padding-top: 60px;
-}
-
-
-#Navratri_Days
-{
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 40px;
-    background-color: bisque;
-    display: grid;
-    gap: 40px;
-    grid-template-columns: auto auto auto;
-    
-}
-
-
-.Navratri_Days
-{
-    font-size: 1.4rem;
-    margin-top: 40px;
-    background-color: antiquewhite;
-    padding: 30px;
-    border-radius: 20px;
-
-}
-
-.Navrateri_imges
-{
-    margin-bottom: 20px;
-    width: 100%;
-    margin-bottom: 20px;
-} */
-
-
-/* {
-    font-size: 3rem;
-    font-family: 'Sancreek', serif;
-    margin-top: 50px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}  */
-
-h2
-{
+h2 {
     font-size: 3rem;
     font-family: 'Sancreek', serif;
     margin-top: 50px;
@@ -252,14 +158,12 @@ h2
     text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#day2_color
-{
+#day2_color {
 
     background-color: rgb(233, 227, 227);
 }
 
-.day2
-{
+.day2 {
     margin-top: 100px;
     margin-left: 80px;
     margin-right: 80px;
@@ -269,8 +173,7 @@ h2
 
 }
 
-.day2_p
-{
+.day2_p {
     font-size: 1.6rem;
     padding: 150px;
     text-align: center;
@@ -282,45 +185,38 @@ h2
     /* text-align: center; */
 }
 
-.day2_images
-{
+.day2_images {
     margin-top: 0px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.day2>div>h3
-{
+.day2>div>h3 {
     font-size: 2.9rem;
     margin-bottom: 70px;
     font-family: 'Tilt Neon', sans-serif;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-#day3_color
-{
+#day3_color {
     background-color: rgb(255, 219, 219);
-   
 }
 
-#day3
-{
+#day3 {
     margin-top: 70px;
     display: inline;
-    
-    
+
+
 }
 
-.day3_images
-{
+.day3_images {
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 20px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-#day3>div>h3
-{
+#day3>div>h3 {
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     font-family: 'Tilt Neon', sans-serif;
@@ -328,71 +224,65 @@ h2
 }
 
 
-#day3>div>p
-{
+#day3>div>p {
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
 }
 
-#day3_div1
-{
+#day3_div1 {
     font-size: 1.5rem;
     background-color: rgb(248, 204, 204);
-   text-align: center;
-   margin-top: 70px;
-   margin-left: 90px;
-   margin-right: 900px;
-   padding-left: 40px;
-   padding-right: 40px;
-   padding-top: 60px;
-   padding-bottom: 60px;
-   border-radius: 20px;
-   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 90px;
+    margin-right: 900px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
-#day3_div2
-{
+#day3_div2 {
     font-size: 1.5rem;
     background-color: rgb(248, 204, 204);
-   text-align: center;
-   margin-top: 70px;
-   margin-left: 440px;
-   margin-right: 440px;
-   padding-left: 40px;
-   padding-right: 40px;
-   padding-top: 60px;
-   padding-bottom: 60px;
-   border-radius: 20px;
-   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-   
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 440px;
+    margin-right: 440px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
 }
 
-#day3_div3
-{
+#day3_div3 {
     font-size: 1.5rem;
     background-color: rgb(248, 204, 204);
-   text-align: center;
-   margin-top: 70px;
-   margin-left: 900px;
-   margin-right: 90px;
-   margin-bottom: 50px;
-   padding-left: 40px;
-   padding-right: 40px;
-   padding-top: 60px;
-   padding-bottom: 60px;
-   border-radius: 20px;
-   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 900px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 
-#day4_color
-{
+#day4_color {
     background-color: rgb(138, 138, 246);
-    
+
 }
 
-#day4
-{
+#day4 {
     color: rgb(211, 176, 176);
     margin-top: 90px;
     margin-left: 50px;
@@ -400,33 +290,28 @@ h2
     gap: 50px;
     display: grid;
     grid-template-columns: auto auto auto;
-    
+
 }
 
-.day4_imeges
-{
+.day4_imeges {
     margin-top: 30px;
     margin-bottom: 25px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     border-radius: 20px;
-    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
 }
 
-#day4>div>h3
-{
+#day4>div>h3 {
     font-family: 'Tilt Neon', sans-serif;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
-#day4>div>p
-{
+#day4>div>p {
     margin-top: 40px;
     font-family: 'Poppins', sans-serif;
 }
 
-#day4_div1
-{
+#day4_div1 {
     font-size: 1.7rem;
     text-align: center;
     padding: 20px;
@@ -436,12 +321,11 @@ h2
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
-#day4_div2
-{
+#day4_div2 {
     font-size: 1.7rem;
     text-align: center;
     padding: 20px;
-    margin-top:210%;
+    margin-top: 210%;
     margin-bottom: 50px;
     background-color: rgb(101, 101, 252);
     border-radius: 20px;
@@ -449,8 +333,7 @@ h2
 
 }
 
-#day4_div3
-{
+#day4_div3 {
     font-size: 1.7rem;
     text-align: center;
     padding: 20px;
@@ -460,100 +343,88 @@ h2
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
-#day5_color
-{
+#day5_color {
     background-color: rgb(237, 237, 144);
-   
+
 }
 
-#day5
-{
+#day5 {
     margin-top: 70px;
     display: inline;
     color: rgb(142, 136, 136);
-    
+
 }
 
-.day5_images
-{
+.day5_images {
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 17px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-#day5>div>h3
-{
-    
+#day5>div>h3 {
+
     font-family: 'Tilt Neon', sans-serif;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 
-#day5>div>p
-{
+#day5>div>p {
     font-family: 'Poppins', sans-serif;
-    /* font-size: 1.5rem; */
     margin-top: 27px;
 }
 
-#day5_div1
-{
+#day5_div1 {
     font-size: 1.5rem;
-   background-color:rgb(239, 239, 89) ;
-   text-align: center;
-   margin-top: 80px;
-   margin-left: 420px;
-   margin-right: 420px;
-   padding: 50px;
-   border-radius: 20px;
-   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    background-color: rgb(239, 239, 89);
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 420px;
+    margin-right: 420px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
-#day5_div2
-{
+#day5_div2 {
     font-size: 1.5rem;
-    background-color:rgb(239, 239, 89) ;
-   text-align: center;
-   margin-top: 80px;
-   margin-left: 420px;
-   margin-right: 420px;
-   padding: 80px;
-   border-radius: 20px;
-   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
-   
+    background-color: rgb(239, 239, 89);
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 420px;
+    margin-right: 420px;
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
 }
 
-#day5_div3
-{
+#day5_div3 {
     font-size: 1.5rem;
-    background-color:rgb(239, 239, 89) ;
-   text-align: center;
-   margin-top: 80px;
-   margin-left: 420px;
-   margin-right: 420px;
-   margin-bottom: 30px;
-   padding: 80px;
-   border-radius: 20px;
-   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    background-color: rgb(239, 239, 89);
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-bottom: 30px;
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
-#day6_color
-{
+#day6_color {
     background-color: rgb(110, 246, 110);
 
 }
 
-#day6
-{
+#day6 {
     display: inline;
     color: #fcec76;
-    
+
 }
 
-#day6>div>h3
-{
+#day6>div>h3 {
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: 'Tilt Neon', sans-serif;
@@ -561,22 +432,19 @@ h2
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
-#day6>div>p
-{
+#day6>div>p {
     font-family: 'Poppins', sans-serif;
     margin-top: 40px;
 }
 
-.day6_images
-{
+.day6_images {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-#day6_div1
-{
+#day6_div1 {
     font-size: 1.5rem;
-    background-color:rgb(37, 164, 37) ;
+    background-color: rgb(37, 164, 37);
     text-align: center;
     margin-top: 70px;
     margin-left: 60%;
@@ -589,10 +457,9 @@ h2
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-#day6_div2
-{
+#day6_div2 {
     font-size: 1.5rem;
-    background-color:rgb(37, 164, 37) ;
+    background-color: rgb(37, 164, 37);
     text-align: center;
     margin-top: 70px;
     margin-left: 30%;
@@ -603,13 +470,12 @@ h2
     padding-bottom: 90px;
     border-radius: 20px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    
+
 }
 
-#day6_div3
-{
+#day6_div3 {
     font-size: 1.5rem;
-    background-color:rgb(37, 164, 37) ;
+    background-color: rgb(37, 164, 37);
     text-align: center;
     margin-top: 70px;
     margin-left: 30px;
@@ -621,48 +487,41 @@ h2
     padding-bottom: 70px;
     border-radius: 20px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    
+
 }
 
-#day7_color
-{
+#day7_color {
     background-color: rgb(245, 226, 226);
 }
-#day7
-{
+
+#day7 {
     display: flex;
     gap: 40px;
     margin-left: 80px;
     margin-right: 80px;
     color: rgb(136, 113, 113);
-    
+
 }
 
-#day7>div>h3
-{
-    /* margin-top: 30px;
-    margin-bottom: 30px; */
+#day7>div>h3 {
     font-family: 'Tilt Neon', sans-serif;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
-#day7>div>p
-{
+#day7>div>p {
     font-family: 'Poppins', sans-serif;
     margin-top: 40px;
 }
 
-.day7_imges
-{
+.day7_imges {
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
-#day7_div1
-{
+#day7_div1 {
     font-size: 1.5rem;
     background-color: rgb(220, 209, 209);
     text-align: center;
@@ -673,8 +532,7 @@ h2
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-#day7_div2
-{
+#day7_div2 {
     font-size: 1.5rem;
     background-color: rgb(220, 209, 209);
     text-align: center;
@@ -685,8 +543,7 @@ h2
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-#day7_div3
-{
+#day7_div3 {
     font-size: 1.5rem;
     background-color: rgb(220, 209, 209);
     text-align: center;
@@ -697,14 +554,12 @@ h2
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-#day8_color
-{
+#day8_color {
 
     background-color: rgb(224, 186, 224);
 }
 
-.day8
-{
+.day8 {
     margin-top: 100px;
     margin-left: 80px;
     margin-right: 80px;
@@ -714,8 +569,7 @@ h2
 
 }
 
-.day8_p
-{
+.day8_p {
     font-size: 1.3rem;
     padding: 100px;
     text-align: center;
@@ -724,19 +578,17 @@ h2
     font-family: 'Poppins', sans-serif;
     background-color: rgb(221, 166, 221);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    
+
 }
 
-.day8_images
-{
+.day8_images {
     margin-top: 20px;
     border-radius: 20px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    
+
 }
 
-.day8>div>h3
-{
+.day8>div>h3 {
     font-size: 2.9rem;
     margin-bottom: 70px;
     font-family: 'Tilt Neon', sans-serif;
@@ -745,30 +597,26 @@ h2
     border-radius: 10px;
 }
 
-#day9_color
-{
-    background-color:  rgb(92, 158, 92);
-   
+#day9_color {
+    background-color: rgb(92, 158, 92);
+
 }
 
-#day9
-{
+#day9 {
     margin-top: 70px;
     display: inline;
     color: rgb(209, 203, 203);
-    
+
 }
 
-.day9_images
-{
+.day9_images {
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 20px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-#day9>div>h3
-{
+#day9>div>h3 {
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     font-family: 'Tilt Neon', sans-serif;
@@ -776,104 +624,93 @@ h2
 }
 
 
-#day9>div>p
-{
+#day9>div>p {
     font-family: 'Poppins', sans-serif;
     margin-top: 30px;
 }
 
-#day9_div1
-{
+#day9_div1 {
     font-size: 1.5rem;
     background-color: rgb(3, 198, 3);
-   text-align: center;
-   margin-top: 70px;
-   margin-left: 90px;
-   margin-right: 900px;
-   padding-left: 40px;
-   padding-right: 40px;
-   padding-top: 60px;
-   padding-bottom: 60px;
-   border-radius: 20px;
-   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 90px;
+    margin-right: 900px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
-#day9_div2
-{
+#day9_div2 {
     font-size: 1.5rem;
     background-color: rgb(3, 198, 3);
-   text-align: center;
-   margin-top: 70px;
-   margin-left: 440px;
-   margin-right: 440px;
-   padding-left: 40px;
-   padding-right: 40px;
-   padding-top: 60px;
-   padding-bottom: 60px;
-   border-radius: 20px;
-   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-   
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 440px;
+    margin-right: 440px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
 }
 
-#day9_div3
-{
+#day9_div3 {
     font-size: 1.5rem;
     background-color: rgb(3, 198, 3);
-   text-align: center;
-   margin-top: 70px;
-   margin-left: 900px;
-   margin-right: 90px;
-   margin-bottom: 50px;
-   padding-left: 40px;
-   padding-right: 40px;
-   padding-top: 60px;
-   padding-bottom: 60px;
-   border-radius: 20px;
-   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 900px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 
-#day1_color
-{
+#day1_color {
     background-color: rgb(243, 186, 79);
-    
+
 }
 
-#day1
-{
+#day1 {
     color: black;
     margin-top: 90px;
     margin-left: 50px;
     margin-right: 50px;
     gap: 50px;
     display: flex;
-    /* grid-template-columns: auto auto auto; */
-    
+
+
 }
 
-.day1_images
-{
+.day1_images {
     margin-top: 30px;
     margin-bottom: 25px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     border-radius: 10px;
 }
 
-#day1>div>h3
-{
+#day1>div>h3 {
     font-family: 'Tilt Neon', sans-serif;
     border-radius: 10px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; */
 }
 
-#day1>div>p
-{
+#day1>div>p {
     font-family: 'Poppins', sans-serif;
     margin-top: 40px;
 }
 
-#day1_div1
-{
+#day1_div1 {
     font-size: 1.7rem;
     text-align: center;
     padding: 20px;
@@ -883,8 +720,7 @@ h2
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
-#day1_div2
-{
+#day1_div2 {
     font-size: 1.7rem;
     text-align: center;
     padding: 20px;
@@ -895,8 +731,7 @@ h2
 
 }
 
-#day1_div3
-{
+#day1_div3 {
     font-size: 1.7rem;
     text-align: center;
     padding: 20px;
@@ -907,68 +742,58 @@ h2
 }
 
 
-.day_link
-{
+.day_link {
     margin-top: 30px;
     margin-bottom: 50px;
-    /* font-size: 4rem; */
-     display: flex;
-     
-    /* gap: 30px;  */
-    
+    display: flex;
 }
-.day1_link
-{
+
+.day1_link {
     padding-left: 300px;
     padding-right: 100px;
     margin-right: 0px;
     margin-top: 30px;
     margin-bottom: 50px;
-    
-    /* text-align: center; */
 }
 
 .button-89 {
-    --b: 3px;   /* border thickness */
-    --s: .45em; /* size of the corner */
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
     --color: #373B44;
-    
+
     padding: calc(.5em + var(--s)) calc(.9em + var(--s));
     color: var(--color);
     --_p: var(--s);
     background:
-      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
-      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
     transition: .3s linear, color 0s, background-color 0s;
     outline: var(--b) solid #0000;
     outline-offset: .6em;
     font-size: 16px;
-  
+
     border: 0;
-  
+
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-  }
-  
-  .button-89:hover,
-  .button-89:focus-visible{
+}
+
+.button-89:hover,
+.button-89:focus-visible {
     --_p: 0px;
     outline-color: var(--color);
     outline-offset: .05em;
-  }
-  
+}
 
-  .footer {
-    background-color:  rgb(234, 147, 60);
+
+.footer {
+    background-color: rgb(234, 147, 60);
     color: #fff;
     padding: 20px;
     font-size: 1.7rem;
     font-family: 'Patua One', serif;
     display: flex;
     justify-content: space-between;
-    /* text-align: center; */
 }
-
-
-  
